@@ -1,0 +1,18 @@
+## Kicad
+pcb*/**/*-lib-table
+pcb*/**/*-cache
+pcb*/**/*-rescue.lib
+pcb*/**/*.sch-bak
+pcb*/**/*.kicad_pcb-bak
+pcb*/**/*.dcm
+pcb*/**/*.kicad_prl
+pcb*/**/*-backups/
+pcb*/**/*.xml
+pcb*/**/out/
+pcb.*/
+pcb*/rev*~*/
+
+## Etc.
+*.bak
+*.*~
+*.sublime-*
