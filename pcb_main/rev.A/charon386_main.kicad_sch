@@ -5,8 +5,11 @@
   (paper "A2")
 
   (title_block
+    (title "PC-CHARON-386-MAIN")
     (date "2021-12-17")
     (rev "A")
+    (company "Eugene Lozovoy")
+    (comment 1 "Miniature 386 IBMPC-compatible computer")
   )
 
   (lib_symbols
@@ -13016,7 +13019,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 3f6f0a52-3fef-44f3-9cf3-220cbc1c394d)
   )
-  (label "ESP_RST" (at 318.77 349.25 180)
+  (label "ESP_RST" (at 319.405 349.25 180)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 3f965bdb-4a79-4352-96d0-78d2cd25da1e)
   )

@@ -5,8 +5,11 @@
   (paper "User" 599.999 350.012)
 
   (title_block
+    (title "PC-CHARON-386-TOP")
     (date "2021-12-17")
     (rev "A")
+    (company "Eugene Lozovoy")
+    (comment 1 "VGA & Sound board for Charon-386")
   )
 
   (lib_symbols
