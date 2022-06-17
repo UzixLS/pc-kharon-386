@@ -11140,7 +11140,7 @@
     (property "Value" "VGA Config" (id 1) (at 214.63 140.9446 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm" (id 2) (at 214.63 147.955 0)
+    (property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile" (id 2) (at 214.63 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 214.63 147.955 0)
@@ -15605,7 +15605,7 @@
       (reference "R37") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/46d8c6f2-9c28-4bc8-bf83-68eb4225e4b8"
-      (reference "SW1") (unit 1) (value "VGA Config") (footprint "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm")
+      (reference "SW1") (unit 1) (value "VGA Config") (footprint "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile")
     )
     (path "/e9bb9582-e2bc-46cd-b4a2-96539521344a"
       (reference "U1") (unit 1) (value "74HC4050") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
