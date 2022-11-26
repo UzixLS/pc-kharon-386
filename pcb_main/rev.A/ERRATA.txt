@@ -1,0 +1,7 @@
+1. Incorrect reset circuit
+2. Unstable -12V under load. 1k resistor should be added between +12V and GND
+3. BIOS PLCC socked interferes with CF card slot
+4. U15 should be TXS0104PW
+5. Incorrent IRQ routing for COM3 and COM4
+6. U17 should not be installed
+7. Incorrect CTS/RTS connection on ESP8266
