@@ -15,4 +15,7 @@ pcb*/rev*~*/
 ## Etc.
 *.bak
 *.*~
-*.sublime-*
+.vscode/
+
+roms/AMIBCP76.exe
+refs/
