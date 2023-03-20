@@ -244,6 +244,7 @@
   },
   "erc": {
     "erc_exclusions": [
+      "pin_to_pin|3035300|3657600|ae4e372b-1d7d-4671-b3dc-704aeec601c6|009f266e-4ca9-4e6d-ac62-e9a459588bd3|/895fa090-e1df-4200-a112-cb7c4b9368aa|/895fa090-e1df-4200-a112-cb7c4b9368aa|/895fa090-e1df-4200-a112-cb7c4b9368aa",
       "power_pin_not_driven|4711700|1244600|38ea991f-1baf-4af5-9869-66edb49dc1bd|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {

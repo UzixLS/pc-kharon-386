@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.6
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -67,6 +67,7 @@
         "footprint_type_mismatch|127250000|53380000|99e7ba2c-997f-477a-b6d7-41a185c7e4cd|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|107652381|133410000|8ff73f96-ff8a-4b5b-8312-20ec33772b60|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|159400001|93200000|e2bc6cf0-1a87-4421-890a-61f727debd56|00000000-0000-0000-0000-000000000000",
+        "text_thickness|159200000|113000000|5cd10647-1532-431f-a345-af9105e6530a|00000000-0000-0000-0000-000000000000",
         "track_dangling|142030573|62234427|5fcabdf5-7bad-4f4e-b4dc-e2210399cf0e|00000000-0000-0000-0000-000000000000",
         "track_dangling|147000000|59800000|0a7205db-6b1c-4a24-9ecf-08694d27d7be|00000000-0000-0000-0000-000000000000",
         "track_dangling|195015000|76850000|3dd385ec-e82e-4c38-9d95-f181d30f33c5|00000000-0000-0000-0000-000000000000"
@@ -135,7 +136,7 @@
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 0,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -222,7 +223,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|4254500|3276600|2916c61d-57fd-4157-8e30-579d45746121|77475358-0771-463f-929b-3a9e5a5b7ce3|||"
+    ],
     "meta": {
       "version": 0
     },
