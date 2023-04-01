@@ -4,4 +4,3 @@
    - C20, C25 should be 1 uF
    - R11, R13 should be 10 KOhm
 2. ES1868F footprint is a bit smaller than required, so soldering it may be tricky
-3. ES1868F is sitting on incorrect IRQ line after PnP configuration due to missing EEPROM
