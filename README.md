@@ -1,15 +1,19 @@
 ## Kharon-386
-10x10cm 386SX PC with integrated VGA and sound.
+10x10cm 386-compatible PC with integrated VGA and sound.
 
-[![photo](images/revA.small.webp)](images/revA.webp?raw=true)
+[![photo](images/thumb.1.webp)](images/1.webp?raw=true)
+[![photo](images/thumb.2.webp)](images/2.webp?raw=true)
 
-[![photo](images/revA-side.small.webp)](images/revA-side.webp?raw=true)
+[![photo](images/thumb.3.webp)](images/3.webp?raw=true)
+[![photo](images/thumb.4.webp)](images/4.webp?raw=true)
+
+More random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?path=%2Fkharon-386)
 
 ### Tech specs
 * 386SX40 CPU and M1217B chipset integrated into one M6117D chip
 * 4MB RAM
-* TVGA9000i-based VGA video card
-* ES1868F-based SBPro-compatible sound card
+* TVGA9000i VGA video
+* ES1868F SoundBlasterPro-compatible sound
 * SAM2695 MIDI synthesizer
 * ESP8266 WiFi module
 * PS/2 keyboard and mouse inputs
@@ -22,7 +26,7 @@
 
 ### WiFi module
 There is two options how to use WiFi module:
-1. Zimodem ([link](https://github.com/bozimmerman/Zimodem)) - provides ability to connect to BBS via any terminal without using additional software.
+1. Zimodem ([link](https://github.com/bozimmerman/Zimodem)) - provides ability to connect to BBS via any terminal without using additional software. WiFi module is connected to COM4, so you can use any terminal to communicate with it using AT commands.
 2. esp_slip_router ([link](https://github.com/martin-ger/esp_slip_router)) - provides ability to connect your machine to IP network just like as Ethernet. You need ETHERSLIP or similar packet driver for DOS.
 
 To upload firmware you need USB-UART adapter with 3.3V signal levels. Connect GND, RX and TX lines to esp header located on main PCB at left, install BOOT/GND jumper and follow any ESP8266 firmware update guide that is available on the internet.
@@ -31,11 +35,8 @@ To upload firmware you need USB-UART adapter with 3.3V signal levels. Connect GN
 MIDI synthesizer is connected to the AUXB sound input of ES1868F. Usually this input named as "CD input" in mixer software.
 PC speaker is connected to the AUXA input.
 
-### Assembling
-TODO: link to video how to assemble everything
-
 ### CF card image
-TODO: upload preconfigured CF card image
+You can found CF card image with preinstalled MS-DOS 6.22 and all required drivers at this link: [link](https://cloud.err200.net/s/t7w4bx3xStSmnJw)
 
 ### Changelog & current status
 Main PCB:
@@ -44,4 +45,4 @@ Main PCB:
 
 Top PCB:
 * Rev.A - first release. Please note the [errata](pcb_top/rev.A/ERRATA.txt);
-* Rev.A1 - fixed all rev.A issues; added switch for VGA BIOS variant select; removed VGA-disable switch. This revision hasn't been tested.
+* Rev.A1 - fixed all rev.A issues; added switch for VGA BIOS variant select; removed VGA-disable switch; added EEPROM for ES1868. This revision hasn't been tested.
