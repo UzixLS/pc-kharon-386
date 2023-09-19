@@ -1,5 +1,5 @@
 ## Kharon-386
-10x10cm 386-compatible PC with integrated VGA and sound.
+10x10cm IBM PC compatible machine with 386 CPU, integrated VGA and sound.
 
 [![photo](images/thumb.1.webp)](images/1.webp?raw=true)
 [![photo](images/thumb.2.webp)](images/2.webp?raw=true)
@@ -10,7 +10,7 @@
 More random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?path=%2Fkharon-386)
 
 ### Tech specs
-* 386SX40 CPU and M1217B chipset integrated into one M6117D chip
+* M6117D System-On-Chip with integrated 386SX40 (almost compatible) CPU and M1217B chipset
 * 4MB RAM
 * TVGA9000i VGA video
 * ES1868F SoundBlasterPro-compatible sound
@@ -22,13 +22,14 @@ More random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?
 * Real-time clock (RTC) with backup battery
 * Integrated PC-speaker
 * 5.1V microUSB power
-* Two 4-layer 10x10cm PCBs optimized for G738 and G706 cases
+* Two 4-layer 10x10cm PCBs + front/back panel PCB
+* G738 or G706 enclosure
 
 ### Navigation
 [release/pcb_main.rev.A1.pdf](release/pcb_main.rev.A1.pdf?raw=true) - motherboard schematic and bill of materials  
 [release/pcb_top.rev.A1.pdf](release/pcb_top.rev.A1.pdf?raw=true) - video&sound board schematic and bill of materials  
-[release/bom_interactive_main.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/tree/master/release/bom_interactive_main.rev.A1.html) - motherboard interactive BOM  
-[release/bom_interactive_top.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/tree/master/release/bom_interactive_top.rev.A1.html) - video&sound board interactive BOM  
+[release/bom_interactive_main.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/blob/master/release/bom_interactive_main.rev.A1.html) - motherboard interactive BOM  
+[release/bom_interactive_top.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/blob/master/release/bom_interactive_top.rev.A1.html) - video&sound board interactive BOM  
 [release/gerber_main.rev.A1.zip](release/gerber_main.rev.A1.zip) - motherboard fabrication files  
 [release/gerber_top.rev.A1.zip](release/gerber_top.rev.A1.zip) - video&sound board fabrication files  
 [release/gerber_covers.rev.A.zip](release/gerber_covers.rev.A.zip) - front and back panel fabrication files  
