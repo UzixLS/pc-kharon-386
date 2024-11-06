@@ -51,12 +51,12 @@ To obtain a minimum noise level, it is recommended to disable line input in the 
 
 ### Changelog & current status
 Main PCB:
-* Rev.A - first release. Please note the [errata](pcb_main/rev.A/ERRATA.txt)
-* Rev.A1 - fixed all rev.A issues; added switch for BIOS variant select; added optional -5V source. This revision hasn't been tested.
+* Rev.A - first release. Please note the [errata](pcb_main/rev.A/ERRATA.txt);
+* Rev.A1 - fixed all rev.A issues; added switch for BIOS variant select; added optional -5V source. Please note the [errata](pcb_main/rev.A1/ERRATA.txt).
 
 Top PCB:
 * Rev.A - first release. Please note the [errata](pcb_top/rev.A/ERRATA.txt);
-* Rev.A1 - fixed all rev.A issues; added switch for VGA BIOS variant select; removed VGA-disable switch; added EEPROM for ES1868. This revision hasn't been tested.
+* Rev.A1 - fixed all rev.A issues; added switch for VGA BIOS variant select; removed VGA-disable switch; added EEPROM for ES1868.
 
 Covers PCB:
 * Rev.A - first release.

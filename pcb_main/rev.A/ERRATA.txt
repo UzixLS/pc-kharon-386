@@ -5,3 +5,4 @@
 5. Incorrent IRQ routing for COM3 and COM4
 6. U17 should not be installed
 7. Incorrect CTS/RTS connection on ESP8266
+8. C3 should not be installed
