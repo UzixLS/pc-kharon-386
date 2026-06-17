@@ -1,11 +1,11 @@
 ## Kharon-386
 10x10cm IBM PC compatible machine with 386 CPU, integrated VGA and sound.
 
-[![photo](images/thumb.1.webp)](images/1.webp?raw=true)
-[![photo](images/thumb.2.webp)](images/2.webp?raw=true)
+[![photo](images/thumb.1.webp)](images/1.webp)
+[![photo](images/thumb.2.webp)](images/2.webp)
 
-[![photo](images/thumb.3.webp)](images/3.webp?raw=true)
-[![photo](images/thumb.4.webp)](images/4.webp?raw=true)
+[![photo](images/thumb.3.webp)](images/3.webp)
+[![photo](images/thumb.4.webp)](images/4.webp)
 
 More random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?path=%2Fkharon-386)
 
@@ -26,8 +26,8 @@ More random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?
 * G738 or G706 enclosure
 
 ### Navigation
-[release/pcb_main.rev.A1.pdf](release/pcb_main.rev.A1.pdf?raw=true) - motherboard schematic and bill of materials  
-[release/pcb_top.rev.A1.pdf](release/pcb_top.rev.A1.pdf?raw=true) - video&sound board schematic and bill of materials  
+[release/pcb_main.rev.A1.pdf](release/pcb_main.rev.A1.pdf) - motherboard schematic and bill of materials  
+[release/pcb_top.rev.A1.pdf](release/pcb_top.rev.A1.pdf) - video&sound board schematic and bill of materials  
 [release/bom_interactive_main.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/blob/master/release/bom_interactive_main.rev.A1.html) - motherboard interactive BOM  
 [release/bom_interactive_top.rev.A1.html](https://htmlpreview.github.io/?https://github.com/UzixLS/pc-kharon-386/blob/master/release/bom_interactive_top.rev.A1.html) - video&sound board interactive BOM  
 [release/gerber_main.rev.A1.zip](release/gerber_main.rev.A1.zip) - motherboard fabrication files  
